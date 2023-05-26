@@ -1,10 +1,10 @@
 import { useEffect, useState } from "react";
 import avatar from "../../assets/img/user.png";
-import { GetProfile } from "../../helpers/getProfile";
 import { Link, useParams } from "react-router-dom";
 import { Global } from "../../helpers/Global";
 import useAuth from "../../hooks/useAuth";
 import { PublicationList } from "../publication/PublicationList";
+import { GetProfile } from "../../helpers/GetProfile";
 
 export const Profile = () => {
   const { auth } = useAuth();
